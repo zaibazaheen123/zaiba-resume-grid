@@ -1,0 +1,157 @@
+.grid-container{
+    display:grid;
+    background-color: bisque;
+    grid-template-columns: 300px auto;
+    padding:10px;
+    column-gap:20px;
+    row-gap:20px;
+}
+#item{
+    padding:20px;
+    font-size:20px;
+}
+.item1{
+    grid-row-start:1;
+    grid-row-end:8;
+    background-color: black;
+}
+img{
+    width:250px;
+    border-radius: 150px;
+    border:solid 10px #844111;
+    margin-left:40px;
+    margin-top:40px;
+    box-shadow:0 0 0 10px white;
+}
+#box1{
+    background-color: white;
+    margin-right:40px;
+    margin-left: 1px;
+    height: 40px;
+    width:170px;
+    margin-top:40px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+#p1{
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 21px;
+
+}
+#interest,#lang{
+    margin-top: 15px;
+    margin-left: 25px;
+    color:aliceblue;
+}
+#head1{
+    margin-left: 25px;
+    margin-right: 65px;
+    margin-top: 4px;
+    color:aliceblue;
+    font-size: 18px;
+}
+#head2{
+    margin-left: 25px;
+    margin-right: 65px;
+    margin-top: 4px;
+    color:aliceblue;
+    font-size: 18px;
+}
+#head3{
+    margin-left: 25px;
+    margin-right: 65px;
+    margin-top: 4px;
+    color:aliceblue;
+    font-size: 18px;
+}
+#para1{
+    margin-left: 25px;
+    margin-right: 65px;
+    margin-top: 1px;
+    color:aliceblue;
+}
+ul{
+    margin-top: 15px;
+    color:aliceblue;
+}
+#box2{
+    background-color: white;
+    margin-left: 2px;
+    height: 40px;
+    width:170px;
+    margin-top:40px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+#box3{
+    background-color: white;
+    margin-left: 2px;
+    height: 40px;
+    width:170px;
+    margin-top:40px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+#intro{
+    background-color: #FAF7F7;
+    margin-top: 50px;
+    margin-left:60px ;
+    height: 100px;
+    width:250px;
+}
+#name{
+    font-size: 30px;
+}
+#box4,#box5{
+    background-color: #744D31;
+    margin-left: 65px;
+    margin-top: 10px;
+    width:150px;
+    height: 50px;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+}
+#p2{
+    margin-left: 20px;
+    margin-top:15px;
+    font-size: 21px;
+}
+#para2{
+    margin-left: 85px;
+    margin-top: 20px;
+}
+#box5{
+    background-color: #744D31;
+    margin-top: 10px;
+    margin-left: 85px;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+    width:150px;
+    height: 50px;
+}
+ul{
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 75px;
+    color: black;
+    font-size: 18px;
+}
+#p3{
+    font-size: 21px;
+    margin-left: 40px;
+    margin-top:8px;
+    font-size: 21px;
+}
+#skills{
+   margin-right: 500px;
+    margin-top:20px;
+    margin-left: 70px;
+}
+#sk{
+    margin-top: 10px;
+}
+#item5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
